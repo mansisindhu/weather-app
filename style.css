@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    max-width: 50%;
+    margin: auto;
+    color: #444;
+    background-color: hsla(248, 67%, 68%, 0.781) ;
+}
+.container {
+    max-width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    color:#473a9e ;
+    letter-spacing: 5px;
+    padding-bottom: 50px;
+}
+.inputText,
+.inputDate {
+    width: 350px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    width: 455px;
+}
+#weather-button {
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    background-color: #473a9e;
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.weather-card {
+    padding-top: 30px;
+    width: 455px;
+    height: 250px;
+    margin-top: 15px;
+    box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    background-color: #e3dfff ;
+    border-radius: 5px;
+}
+.title {
+    margin-top: 10px;
+    font-size: 32px;
+}
+.subtitle {
+    font-size: 16px;
+    color: #666;
+}
+.temperature {
+    font-size: 30px;
+    margin-top: 10px;
+    color: coral;
+}
+.other-info {
+    margin-top: 10px;
+}
+.weather-image {
+    margin-top: 50%;
+}
+.city-name{
+    color: coral;
+}
+::placeholder {
+    padding-left: 10px;
+    color: hsla(248, 67%, 68%, 0.781);
+    text-transform: uppercase;
+  }
